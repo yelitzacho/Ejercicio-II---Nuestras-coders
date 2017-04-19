@@ -4,13 +4,17 @@ body{
 	font-family: 'Courier', sans-serif;
 }
 
-.linea{
-	background-color: black;
-	height: 10px;
-	width: 30px;
+#contenedor{
+	position: relative;
 }
 
-.imagenes{
-	width: 300px;
-	height: 300px;
+img{
+	width: 260px;
+	height: 260px;
+}
+
+.contenedorImg{
+	display: inline-block;
+	margin: 0;
+	padding: 30px;
 }
