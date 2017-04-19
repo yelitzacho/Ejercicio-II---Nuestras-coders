@@ -3,21 +3,20 @@ window.addEventListener( 'load', function (e){
 
 	var contenedor = document.getElementById('contenedor');
 
-	/*
-	function sdhgd{
-		var section = document.createElement('section');
-		var titulo = document.createElement('h2');
-		var linea = document.createElement('hr');
+	var section = document.createElement('section');
+	var titulo = document.createElement('h1');
+	var linea = document.createElement('hr');
 
-		titulo.innerText = "Nuestras coders";
-		titulo.appendChild(contenedor);
+	titulo.innerText = "Nuestras coders";
+	section.appendChild(titulo);
 
-		span.setAttribute('class','linea');
-		contenedor.appendChild(span);
-	}
-	*/
+	linea.setAttribute('class','linea');
+	section.setAttribute('class','sectionTitulo');
+	section.appendChild(linea);
 
-	var coders = 	['','Rossemary Madonado','Nadia Cuadros','Katherine Ortega',
+	contenedor.appendChild(section);
+
+	var coders = 	['','Rosmery Madonado','Nadia Cuadros','Katherine Ortega',
 					'Flor Tello','Mitchell Rodríguez','Karin Alejo'];
 
 	for (var i = 1; i <= 6; i++){
